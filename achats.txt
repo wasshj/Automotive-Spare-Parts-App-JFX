@@ -1,0 +1,5 @@
+11 lsdksjd Capteur*ABS 6 187.5 1 187.5
+10 JDBD76 Cylindre*De*Roue 6 144.0 2 288.0
+12 SDND23 Flexible*De*Frein 4 454.0 2 908.0
+14 SDND23 Flexible*De*Frein 5 454.0 1 454.0
+13 FDSD32 Volant*moteur 5 116.7 2 233.4

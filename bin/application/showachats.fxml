@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="350.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="application.showachatsController">
+   <children>
+      <TableView fx:id="mesachatstab" layoutX="34.0" layoutY="14.0" prefHeight="322.0" prefWidth="723.0">
+        <columns>
+          <TableColumn fx:id="nomp" prefWidth="75.0" text="Pièce" />
+          <TableColumn fx:id="refp" prefWidth="75.0" text="Ref" />
+            <TableColumn fx:id="idclt" prefWidth="75.0" text="id_Client" />
+            <TableColumn fx:id="qqte" prefWidth="75.0" text="Quantité" />
+            <TableColumn fx:id="prix" prefWidth="389.0" text="Prix" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+
+
+/*TablPane styling*/
+.tab{
+    /*  -fx-background-color: -fx-primary;*/
+    -fx-pref-width:130;
+    -fx-pref-height:60;
+}
+
+
+.tab-header-background{
+   /*  -fx-background-color: -fx-primary;/*  /*  partie extreme droite*/
+}
+
+.tab-label{
+    -fx-text-fill: -fx-secondary;
+    -fx-font-size: 10pt; 
+}
+
+
+.tab-main{
+    -fx-pref-height : 60;
+    -fx-max-height : 60;
+}
+
+.settings-tab{
+   /* -fx-background-color: derive(-fx-primary, 10%);*/
+    -fx-padding: 5px 20px 5px 20px;
+}
+
+.settings-tab:selected{
+    /*-fx-background-color: -fx-secondary;*/
+}
+
+.settings-tab:selected .tab-label{
+    -fx-text-fill: -fx-primary;
+}
+
+.settings-tab .tab-header-background{
+    -fx-background-color: derive(-fx-primary, -50%);
+}
+/*Menu bar Styling*/
+.menu-bar{
+    -fx-base : -fx-primary;
+    -fx-background-color: -fx-primary;
+}
+
+/* */
