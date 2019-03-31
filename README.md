@@ -1,4 +1,4 @@
-# Automotive-Spare-Parts-App
+# Automotive Spare Parts App
 
 -Manage and optimize the management of customers, suppliers, invoices and stock
 
